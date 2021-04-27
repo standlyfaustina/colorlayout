@@ -249,7 +249,7 @@
 
 }
 
-.hightlight{
+.highlight{
     border-bottom: 4px solid rgb(132, 0 ,255);
 
 }
@@ -657,16 +657,16 @@
 
 .social_icons{
     display: flex;
-     justify-content: space-between;
-     align-items: center;
-    
- 
+    justify-content: space-between;
+    align-items: center;
     width: 240px;
 }
  
 .website_rights{
     color:#fff;
 }
+
+
 
 @media screen and (max-width:820px){
     .footer_links{
@@ -684,4 +684,16 @@
     .footer_links--wrapper{
         flex-direction:column;
     }
-} */
+
+    .social_media--wrap{
+        flex-direction:column;
+    }
+}  
+
+@media screen and (max-width:480px){
+    .footer_link--items{
+        margin:0;
+        padding:10px;
+        width:100%;
+    }
+}
